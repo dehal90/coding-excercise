@@ -1,0 +1,18 @@
+This project was created using the Rspec gem to demonstrate dependencies within a simple 
+sequence. I tried to to write this code up without gems but it got far too complicated
+using the standard Ruby arrays, hashes and strings. 
+I chose Rspec because it is popular and works on all platforms. I decided to break the code down by defining methods
+in different files because it makes it easier to read and understand
+how the different methods, classes and variables come together rather than reading an
+entire 200+ long line of code.
+
+I started off with a large amount of code, then realized I had had too many unused methods and variables
+so I deleted a lot of them and took a more modular approach which reduced my 
+'Main_Coding_Excercise' file from over 180 lines to just 75.
+
+The main file is the Main_Coding_Excercise.rb file and the rest of the folders in the directory
+are just include files in which it depends on.
+
+Just remember to rspec the main coding excercise file
+
+More documentation on the coding can be found in the ruby files through comments.
